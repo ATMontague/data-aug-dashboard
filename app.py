@@ -69,7 +69,7 @@ def main():
             st.image(sal_map_img, caption='Saliency Map')
             st.image(gc_img, caption='Grad-CAM')
             st.image(lime_img, caption='LIME')
-            tsne = '/home/adam/repos/edtech/data-aug-dashboard/data/imgs/T-SNE_Embedding_of_MNIST.png'
+            tsne = 'data/imgs/T-SNE_Embedding_of_MNIST.png'
             st.image(image=tsne, caption='tsne test ex')
 
         with col2:
