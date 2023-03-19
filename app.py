@@ -1,10 +1,4 @@
 import streamlit as st
-import json
-import requests
-import matplotlib.pyplot as plt
-import numpy as np
-
-from utils import get_random_mnist_image
 
 import os
 
