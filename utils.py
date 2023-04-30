@@ -1,17 +1,11 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from torchvision.models import resnet18, ResNet18_Weights
-import numpy as np
+from torchvision.models import resnet18
 import json
-import requests
-import matplotlib.pyplot as plt
-import numpy as np
-import cv2
 import albumentations as A
 from albumentations.pytorch import ToTensorV2
 import streamlit as st
-import random
 import os
 
 
