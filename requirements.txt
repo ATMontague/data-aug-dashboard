@@ -4,3 +4,4 @@ numpy
 albumentations
 opencv-python-headless
 streamlit
+streamlit-embedcode
