@@ -1,9 +1,9 @@
 import streamlit as st
 import os
-from utils import load_model, get_prediction
 import cv2
 import random
 
+from utils import load_model, get_prediction
 from utils import IMG_OPTIONS, IMG_NAME_MAP, IMG_SIZE
 
 
